@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intoduction to CSS</title>
+    <link rel="stylesheet" href="styles\intro.css"/>
+</head>
+<body>
+    <h1 style="color: rgb(157, 240, 157); 
+    font-size: 60px;
+     background-color: yellow;">
+        Geeks For Geeks
+    </h1>
+    <p> Happy resumption!!</p>
+    <hr>
+    <h1 style="color: yellow;
+    background-color: blue;text-transform: capitalize;">
+        This is the main heading that is wrapped in "h1" tags.
+    </h1>
+    <p style=" font-family: Arial, Helvetica, sans-serif;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus delectus, necessitatibus eum quibusdam error sunt <strong style=" color: red;"> MAKE THIS TEXT BLUE</strong> libero odio recusandae, eos quas maiores at quis quia nihil architecto ducimus assumenda quaerat obcaecati.
+    </p>
+    <hr>
+    <h1 style="color: white;
+    background-color: green; text-transform: capitalize;">
+        This is the main heading that is wrapped in "h1" tags.
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores ducimus, provident maiores ipsum veniam consequuntur doloribus quod, <strong style=" color: blue;"> MAKE THIS TEXT BLUE</strong>hic sint corporis dicta aut veritatis. Tenetur <strong style="font-style: italic; color: blue;"> MAKE THIS TEXT BLUE</strong> tempore error natus neque deserunt?
+    </p>
+
+    <style>
+        h1{
+            margin-top: 0;
+            text-align:left;
+        }
+        
+        
+    </style>
+    
+</body>
+</html>

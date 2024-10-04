@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo classes</title>
+</head>
+<body>
+  <div class="flex-container">  
+<button class="btn">Do something</button>
+<input type="text">
+<input type="text" disabled ="false">
+<h1>Fruits</h1>
+<ul>
+    <li>apple</li>
+    <li>pawpaw</li>
+    <li>mango</li>
+    <li>grape</li>
+    <li>kiwi</li>
+    <li>pineapple</li>
+    <li>water melon</li>
+    <li>strawberry</li>
+    <li>coconut</li>
+    <li>orange</li>
+</ul>
+</div>
+
+
+<style>
+
+    .flex-container{display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+        border: 1px solid black;
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+    li{padding: 5px 10px;}
+
+   
+    /*li:first-child{background-color: lightblue;}
+
+    li:last-child{background-color: lightgreen}*/
+
+    li:nth-child(even){background-color: blue;}
+    li:hover{
+        background-color: brown;
+    }
+
+
+    .btn{
+        padding: 10px 40px;
+        background-color: blue;
+        border: 1px solid blue;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;}
+
+    .btn:hover{
+        background-color: white;
+        color: blue;}
+
+        .flex-container{display: flex;
+        justify-content: center;}
+
+     .btn:active{background-color:red;}
+     
+     input{
+        padding: 5px
+        6px;
+        font-size: 1.24rem;
+        outline: none;}
+
+        input:focus{border: 2px solid red;}
+
+        input:hover{
+            border: 1px solid purple;
+        }
+
+        input:disabled{
+            background-color: lightgreen;
+        }
+
+</style>
+
+</body>
+</html>

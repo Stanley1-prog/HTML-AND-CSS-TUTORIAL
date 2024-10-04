@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()" id="navlinks"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Macville Elementary school</h1>
+        <p>making website is now oneof the easiest thing in the world.you
+            just need to learn HTML,<br>CSS,Javascript and you are good to go.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+
+ </div>
+
+    </section>
+
+    <!-- Javascript -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!------course------>
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sint, temporibus atque eaque nobis consequuntur! Animi, sequi alias est doloremque quisquam fugiat dolorum sit similique accusamus, quibusdam facere magnam nostrum.</p>
+
+            <div class="row">
+
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sint, temporibus atque eaque nobis consequuntur! Animi, sequi alias est doloremque quisquam fugiat dolorum sit similique accusamus, quibusdam facere magnam nostrum.</p>
+            </div>                
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sint, temporibus atque eaque nobis consequuntur! Animi, sequi alias est doloremque quisquam fugiat dolorum sit similique accusamus, quibusdam facere magnam nostrum.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sint, temporibus atque eaque nobis consequuntur! Animi, sequi alias est doloremque quisquam fugiat dolorum sit similique accusamus, quibusdam facere magnam nostrum.</p>
+            </div>            
+          </div>
+
+    </section>
+
+
+    <!-----campus----->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia id fugit ad atque et sint in consectetur illo! Voluptates impedit quisquam, minima expedita excepturi quam aliquam illum deserunt mollitia cumque</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+             </div>
+            <div class="campus-col"> 
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>Washington</h3>
+           </div>
+
+    </section>
+
+    <!-----facilities----->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rerum maiores error laborum perspiciatis, iste sapiente reprehenderit nam consectetur corrupti fuga? Exercitationem labore numquam praesentium similique ullam eaque nisi earum!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" height="500px" width="500px">
+                <h3>World Class Libary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis provident natus molestias numquam fugit facilis, quo temporibus quas id quidem impedit voluptatibus cupiditate excepturi est cum exercitationem laborum dolor.</p>
+         </div>
+        <div class="facilities-col">
+        <img src="images/basketball.png"height="500px" width="500px">
+        <h3>Playing Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis provident natus molestias numquam fugit facilis, quo temporibus quas id quidem impedit voluptatibus cupiditate excepturi est cum exercitationem laborum dolor.</p>
+       </div>
+       <div class="facilities-col">
+        <img src="images/cafeteria.png"height="500px" width="500px">
+        <h3>Tasty And Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis provident natus molestias numquam fugit facilis, quo temporibus quas id quidem impedit voluptatibus cupiditate excepturi est cum exercitationem laborum dolor.</p>
+        </div>
+    </section>
+    <!-----testimonials----->
+    <section class="testimonials">
+        <h1>What Are Students Says</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore optio nisi enim! Sequi repellendus recusandae corrupti rerum inventore modi soluta ea voluptas doloremque nesciunt optio reiciendis, ullam libero pariatur dolor?</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id et illum, consequuntur, iste, sapiente earum quos accusantium voluptates eius qui dignissimos minima cum possimus quasi architecto dolorem quo iure.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+        </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id et illum, consequuntur, iste, sapiente earum quos accusantium voluptates eius qui dignissimos minima cum possimus quasi architecto dolorem quo iure.</p>
+                <h3>David</h3>
+                <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+         </div>
+         </div>
+         
+         
+        </div>
+
+    </section>
+    
+      
+    <!-----call to action----->
+
+    <section class="cta">
+        <h1>Enroll Our Various Online Courses <br> Anywhere In The World</h1>
+        <a href="" class="hero-btn">CONTACTUS</a>
+    </section>
+     <!-----footer----->
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore sequi dolores ipsa vel aut sit itaque molestiae adipisci vero?<br> Ducimus at amet fugit. Repellendus dolor, tempore expedita facilis rem cumque.</p>
+        </section>
+        
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+        <p>Made with<i class="fa fa-heart-o"></i>SammyCode
+        </p>
+        
+    </div>
+
+    
+
+    
+    
+</body>
+</html>

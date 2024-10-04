@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-header">
+<li class="nav-items"><a href="#">Home</a></li>
+<li class="nav-items"><a href="#">Service</a></li>
+<li class="nav-items"><a href="#">About</a></li>
+<li class="nav-items"><a href="#">Contact Us @...gmail.com</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="nav-aside">
+            <li class="nav-items2"><a href="#">President</a></li>
+            <li class="nav-items2"><a href="#">Vice President</a></li>
+            <li class="nav-items2"><a href="#">Senate president</a></li>
+            <li class="nav-items2"><a href="#">Ministers</a></li>
+        </ul>
+    </aside>
+
+
+
+    <aside class="right">
+        <ul class="nav-asideright">
+            <li class="nav-items2"><a href="#">Sign in New account</a></li>
+            <li class="nav-items2"><a href="#">Login Old account</a></li>
+        </ul>
+    </aside>
+
+    <style>
+        
+        body {
+height: 1000px;
+padding-top: 70px;
+padding-left: 250px;}
+
+        nav {
+background-color: gray;
+color: white;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 70px;
+z-index: 5;}
+
+        aside {
+background-color: yellow;
+color:peru                       ;
+position: fixed;
+top: 70px;
+left: 0;
+bottom: 0;
+width: 200px;
+z-index: 5;}
+
+        .right{background-color: indigo;
+color:gold;
+position: fixed;
+top: 70px;
+right: 0;
+bottom: 0;
+width: 200px;
+margin-left: 1150px;
+z-index: 6;}
+a{text-decoration: none;
+color: inherit;}
+
+.nav-items{display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: end;}
+
+        
+    
+    .nav-header{display: flex;
+            align-items: center;
+        padding: 10px 20px ;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        list-style: none;
+        padding-left: 5px;
+        display: flex;
+        gap: 20px;}
+
+        .nav-aside{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            display: grid;
+            gap: 30px;
+            color: red;}
+
+        .nav-asideright{display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: end;
+        display: flex;
+            align-items: center;
+            list-style: none;
+            display: grid;
+            gap: 30px;
+            color: violet;}
+
+    </style>
+</body>
+
+</html>

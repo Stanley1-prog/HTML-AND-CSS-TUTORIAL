@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #444;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content .main {
+            flex: 70%;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content .main h2 {
+            margin-bottom: 1rem;
+        }
+
+        .content .sidebar {
+            flex: 30%;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple HTML & CSS website</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content">
+            <!-- Main Article Section -->
+            <section class="main">
+                <h2>About This Website</h2>
+                <p>This is a simple, clean HTML & CSS layout that can be expanded upon to create a fully functional website. The layout consists of a header, navigation bar, main content area, sidebar, and footer. It's mobile responsive, so it works well on both desktop and mobile devices.</p>
+                <h3>Why HTML & CSS?</h3>
+                <p>HTML is the basic structure of a webpage, while CSS is used to style it. Together, they allow you to create well-designed websites that are visually appealing and user-friendly.</p>
+            </section>
+
+            <!-- Sidebar Section -->
+            <aside class="sidebar">
+                <h3>Latest News</h3>
+                <p>Stay tuned for more updates and features. We will be launching new sections of the website soon!</p>
+                <h3>Contact Us</h3>
+                <p>Email: contact@mysimplewebsite.com</p>
+                <p>Phone: +123 456 7890</p>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2024 My Simple Website</p>
+    </footer>
+
+</body>
+</html>

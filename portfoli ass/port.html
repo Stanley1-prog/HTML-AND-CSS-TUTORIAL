@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiber Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            background-color: #F9F9F9;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            color: black;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .cta-buttons {
+            margin-left: auto;
+        }
+        .cta-buttons a {
+            margin-left: 10px;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #6A3DD9;
+            color: white;
+            border-radius: 5px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: white;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 50px;
+            background-color: #F9F9F9;
+        }
+        .feature {
+            text-align: center;
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+        .testimonials {
+            padding: 40px 50px;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        .testimonial {
+            max-width: 30%;
+            text-align: center;
+            padding: 20px;
+            background-color: #F3F3F3;
+            border-radius: 8px;
+        }
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Fiber</h1>
+        <nav>
+            <a href="#community">Community</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#features">Features</a>
+        </nav>
+        <div class="cta-buttons">
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Create your portfolio in minutes.</h2>
+        <p>With Fiber, you can set up your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+        <a href="#" style="background-color: #6A3DD9; padding: 10px 20px; color: white; border-radius: 5px;">Start Free Trial</a>
+        <a href="#" style="margin-left: 20px; padding: 10px 20px; border-radius: 5px; border: 1px solid #6A3DD9; color: #6A3DD9;">View Examples</a>
+        
+        <!-- Placeholder for Image -->
+        <div>
+            <img src="hero-Illustration.png" alt="Hero Image" style="max-width: 40%; margin-top: 20px;">
+        </div>
+    </section>
+
+    <!-- Features Section (with ID for linking) -->
+    <section id="features" class="features">
+        <div class="feature">
+            <!-- Placeholder for Feature Icon -->
+            <img src="time.svg" alt="Feature Icon 1">
+            <h3>Build in minutes</h3>
+            <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes.</p>
+        </div>
+        <div class="feature">
+            <!-- Placeholder for Feature Icon -->
+            <img src="code.svg" alt="Feature Icon 2">
+            <h3>Add custom CSS</h3>
+            <p>Customize your portfolio even more with the ability to add your own custom CSS styles.</p>
+        </div>
+        <div class="feature">
+            <!-- Placeholder for Feature Icon -->
+            <img src="allSizes.svg" alt="Feature Icon 3">
+            <h3>Responsive</h3>
+            <p>All Fiber templates are fully responsive to ensure the experience is seamless across devices.</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section (with ID for linking) -->
+    <section id="pricing" class="pricing" style="text-align: center; padding: 50px;">
+        <h2>Pricing Plans</h2>
+        <p>Choose the plan that works best for you. Starting at just $10 per month!</p>
+        <a href="#" style="background-color: #6A3DD9; padding: 10px 20px; color: white; border-radius: 5px;">View Pricing</a>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonial">
+            <!-- Placeholder for Testimonial Image -->
+            <img src="User Avatar.svg" alt="Sarah Andrews">
+            <h4>Sarah Andrews</h4>
+            <p>$100K in revenue</p>
+            <p>Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100K.</p>
+        </div>
+        <div class="testimonial">
+            <!-- Placeholder for Testimonial Image -->
+            <img src="User Avatar 2.svg" alt="Mathew Higgins">
+            <h4>Mathew Higgins</h4>
+            <p>$20K in revenue</p>
+            <p>I have been getting a lot of leads ever since I used Fiber's premade templates. Now I just need to work on my case studies and I'll be ready to go!</p>
+        </div>
+        <div class="testimonial">
+            <!-- Placeholder for Testimonial Image -->
+            <img src="User Avatar 32.svg" alt="Janice Dave">
+            <h4>Janice Dave</h4>
+            <p>$30K in revenue</p>
+            <p>I only just started freelancing this year and have already made more than I ever did in my full-time job. The templates are amazing.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div>
+            <h3>Fiber</h3>
+            <p>With Fiber, you can set up your personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+            <p>Made with ❤ in the Netherlands.</p>
+        </div>
+        <div>
+            <h4>Sitemap</h4>
+            <a href="#">Homepage</a><br>
+            <a href="#pricing">Pricing</a><br>
+            <a href="#testimonials">Testimonials</a><br>
+            <a href="#features">Features</a>
+        </div>
+        <div>
+            <h4>Resources</h4>
+            <a href="#">Support</a><br>
+            <a href="#">Contact</a><br>
+            <a href="#">FAQ</a>
+        </div>
+        <div>
+            <h4>Company</h4>
+            <a href="#">About</a><br>
+            <a href="#">Customers</a><br>
+            <a href="#">Blog</a>
+        </div>
+    </footer>
+
+</body>
+</html>

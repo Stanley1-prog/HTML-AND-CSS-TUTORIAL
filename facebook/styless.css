@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .flag {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, green 33.33%, white 33.33%, white 66.66%, green 66.66%);
+    border: 1px solid #000;
+  }
+  

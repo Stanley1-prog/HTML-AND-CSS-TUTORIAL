@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Border Box</title>
+   
+</head>
+<body>
+    <div class="container">
+        <div></div>
+    </div>
+</body>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container::before, .container::after, .container > div::before, .container > div::after {
+        content: '';
+        position: absolute;
+        background: red;
+    }
+
+    /* Top border */
+    .container::before {
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        background-color: red;
+    }
+
+    /* Bottom border */
+    .container::after {
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        background-color: green;
+    }
+
+    /* Left border */
+    .container > div::before {
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 100%;
+        background-color: yellow;
+    }
+
+    /* Right border */
+    .container > div::after {
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 100%;
+        background-color: blue;
+    }
+</style>
+</html>
